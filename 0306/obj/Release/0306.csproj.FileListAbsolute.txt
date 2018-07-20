@@ -1,0 +1,11 @@
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\bin\Release\0306.exe.config
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\bin\Release\0306.exe
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\bin\Release\0306.pdb
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\obj\Release\_0306.Form1.resources
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\obj\Release\_0306.Properties.Resources.resources
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\obj\Release\0306.csproj.GenerateResource.Cache
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\obj\Release\0306.exe
+C:\Users\sp01\Desktop\Herrscherderwelt\0306\obj\Release\0306.pdb
+C:\Users\manof\OneDrive\Robot Project\Herrscherderwelt\0306\bin\Release\0306.exe.config
+C:\Users\manof\OneDrive\Robot Project\Herrscherderwelt\0306\obj\Release\0306.exe
+C:\Users\manof\OneDrive\Robot Project\Herrscherderwelt\0306\obj\Release\0306.pdb
