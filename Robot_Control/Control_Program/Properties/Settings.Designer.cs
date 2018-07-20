@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace _0306.Properties
+namespace Control_Program.Properties
 {
 
 

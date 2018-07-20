@@ -8,17 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO.Ports;
-namespace _0306
+
+namespace Control_Program
 {
     public partial class Form1 : Form
     {
-        private SerialPort myport;
+     //   private SerialPort myport;
         public Form1()
         {
             InitializeComponent();
             init();
-        }      
-      
+        }
         private void init()
         {
             try
@@ -28,13 +28,16 @@ namespace _0306
                 myport.PortName = "COM4";
                 myport.Open();
             }
-            catch(Exception)
+            catch (Exception)
             {
                 MessageBox.Show("Error");
-            }         
-        }                 
+            }
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
-    
+        }
+
         private void press(object sender, KeyPressEventArgs e)
         {
 
@@ -48,32 +51,32 @@ namespace _0306
             { myport.WriteLine("u"); }
 
             //second link
-            if (e.KeyChar == 'h' ||e.KeyChar=='H')
+            if (e.KeyChar == 'h' || e.KeyChar == 'H')
             { myport.WriteLine("h"); }
-            if (e.KeyChar == 'j' ||e.KeyChar=='J')
-            {myport.WriteLine("j");  }
+            if (e.KeyChar == 'j' || e.KeyChar == 'J')
+            { myport.WriteLine("j"); }
 
             //third link
-            if (e.KeyChar == 'n'||e.KeyChar=='N')
-            {   myport.WriteLine("n");   }
-            if (e.KeyChar=='m'||e.KeyChar=='M')
+            if (e.KeyChar == 'n' || e.KeyChar == 'N')
+            { myport.WriteLine("n"); }
+            if (e.KeyChar == 'm' || e.KeyChar == 'M')
             { myport.WriteLine("m"); }
 
             //return origin
-            if(e.KeyChar=='a'||e.KeyChar=='A')
+            if (e.KeyChar == 'a' || e.KeyChar == 'A')
             { myport.WriteLine("a"); }
 
             //the put slide
-            if(e.KeyChar=='o'||e.KeyChar=='O')
+            if (e.KeyChar == 'o' || e.KeyChar == 'O')
             { myport.WriteLine("o"); }
-            if(e.KeyChar=='p'||e.KeyChar=='P')
+            if (e.KeyChar == 'p' || e.KeyChar == 'P')
             { myport.WriteLine("p"); }
-            if (e.KeyChar =='i'|| e.KeyChar == 'I')
+            if (e.KeyChar == 'i' || e.KeyChar == 'I')
             { myport.WriteLine("i"); }
             if (e.KeyChar == 'k' || e.KeyChar == 'K')
             { myport.WriteLine("k"); }
             if (e.KeyChar == 'l' || e.KeyChar == 'L')
-            { myport.WriteLine("l"); } 
+            { myport.WriteLine("l"); }
             //change speed
             if (e.KeyChar == 't' || e.KeyChar == 'T')
             { myport.WriteLine("t"); }
@@ -98,23 +101,22 @@ namespace _0306
             if (e.KeyChar == 'f' || e.KeyChar == 'F')
             { myport.WriteLine("f"); }
             if (e.KeyChar == 'w' || e.KeyChar == 'W')
-            { myport.WriteLine("w");}
+            { myport.WriteLine("w"); }
             if (e.KeyChar == 'r' || e.KeyChar == 'R')
             { myport.WriteLine("r"); }
             if (e.KeyChar == 'x' || e.KeyChar == 'X')
             { myport.WriteLine("x"); }
             if (e.KeyChar == 'v' || e.KeyChar == 'V')
             { myport.WriteLine("v"); }
-           
+
             //
             if (e.KeyChar == 'z' || e.KeyChar == 'Z')
             { myport.WriteLine("z"); }
-          
         }
 
         private void up(object sender, KeyEventArgs e)
         {
-           // myport.WriteLine("0");
+            // myport.WriteLine("0");
         }
     }
 }

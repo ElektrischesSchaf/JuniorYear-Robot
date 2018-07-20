@@ -1,4 +1,4 @@
-﻿namespace _0306
+﻿namespace Control_Program
 {
     partial class Form1
     {
@@ -23,30 +23,23 @@
         #region Windows Form 設計工具產生的程式碼
 
         /// <summary>
-        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器
-        /// 修改這個方法的內容。
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
         /// </summary>
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+            this.myport = new System.IO.Ports.SerialPort(this.components);
             this.SuspendLayout();
-            // 
-            // serialPort1
-            // 
-            this.serialPort1.PortName = "COM3";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.CausesValidation = false;
-            this.ClientSize = new System.Drawing.Size(458, 485);
-            this.Margin = new System.Windows.Forms.Padding(5);
+            this.ClientSize = new System.Drawing.Size(282, 253);
             this.Name = "Form1";
-            this.Text = "Herrscher der Welt";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.press);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.up);
             this.ResumeLayout(false);
@@ -55,7 +48,7 @@
 
         #endregion
 
-        private System.IO.Ports.SerialPort serialPort1;
+        private System.IO.Ports.SerialPort myport;
     }
 }
 
