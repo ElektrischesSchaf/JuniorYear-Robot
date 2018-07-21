@@ -1,6 +1,7 @@
-# JuniorYear-Robot  
-## June 2017  
-## 105學年度 國立成功大學 大三 機械專題實作
+# JuniorYear-Robot(June 2017)  
+## 105學年度
+## 國立成功大學  機械工程學系
+## 大三必修課程  機械專題實作
 ***
 ## Robot Description:  
 ### Remote control our Theo Jansen Robot to move back and forth, change direction and transport cubes with its robotic arm.  
