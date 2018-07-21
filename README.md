@@ -3,7 +3,7 @@
 ## 105學年度 國立成功大學 大三 機械專題實作
 ***
 ## Robot Description:  
-### Remote control our Theo Jansen Robot to move back and forth, change direction and grab cube with its robotic arm.  
+### Remote control our Theo Jansen Robot to move back and forth, change direction and transport cubes with its robotic arm.  
 ***
 ![competition venue](https://github.com/ElektrischesSchaf/JuniorYear-Robot/blob/master/robot_photo/4.jpg)  
 The competition venue designed for the robot, set it on the corner when game start, 
