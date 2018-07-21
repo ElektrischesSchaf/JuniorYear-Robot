@@ -1,4 +1,4 @@
-# JuniorYear-Robot(June 2017)  
+# Mechanical Engineering Project (June 2017)  
 ## 105學年度
 ## 國立成功大學  機械工程學系
 ## 大三必修課程  機械專題實作
