@@ -7,7 +7,8 @@
 ***
 ![competition venue](https://github.com/ElektrischesSchaf/JuniorYear-Robot/blob/master/robot_photo/4.jpg)  
 The competition venue designed for the robot, set it on the corner when game start, 
-move it to the center and grab as many cubes as it can, then place the all the cubes on the diagonal corner.  
+move it to the center and grab as many cubes as it can, then place the all the cubes on the diagonal corner. There are three 
+layers on the corner, the higher the cubes are being put, and the more the cubes are being put standing straight, the higher score it get.   
 ***
 ![middle game](https://github.com/ElektrischesSchaf/JuniorYear-Robot/blob/master/robot_photo/1.jpg)  
 Robot collecting cubes with its arm.  
@@ -16,4 +17,4 @@ Robot collecting cubes with its arm.
 Put one standing cube on the top layer.  
 ***
 ![sweep](https://github.com/ElektrischesSchaf/JuniorYear-Robot/blob/master/robot_photo/3.jpg)  
-Sweep all the rest cubes on the lower layer.  
+Sweep all the rest cubes on the second layer.  
