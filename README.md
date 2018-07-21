@@ -17,4 +17,4 @@ Robot collecting cubes with its arm.
 Put one standing cube on the top layer.  
 ***
 ![sweep](https://github.com/ElektrischesSchaf/JuniorYear-Robot/blob/master/robot_photo/3.jpg)  
-Sweep all the rest cubes on the second layer.  
+Sweep all the rest cubes to the second layer.  
