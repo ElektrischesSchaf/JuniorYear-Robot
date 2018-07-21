@@ -6,7 +6,7 @@
 ### Remote control our Theo Jansen Robot to move back and forth, change direction and transport cubes with its robotic arm.  
 ***
 ![competition venue](https://github.com/ElektrischesSchaf/JuniorYear-Robot/blob/master/robot_photo/4.jpg)  
-The competition venue designed for the robot, set it on the corner when game start, 
+The competition venue designed for the robot. Set it on the corner when game start, 
 move it to the center and grab as many cubes as it can, then place the all the cubes on the diagonal corner. There are three 
 layers on the corner, the higher the cubes are being put, and the more the cubes are being put standing straight, the higher score it get.   
 ***
